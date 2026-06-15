@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerheader {
+    background-color: rgb(221, 236, 240);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+.estilizarnav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    cursor: pointer;
+    color: rgb(2, 2, 112);
+}
+.home {
+    color: blue;
+    text-decoration: underline;
+}
+.login {
+    background-color: rgb(221, 236, 240);
+    color: blue;
+    cursor: pointer;
+    padding: 20px;
+    gap: 20px;
+    align-items: flex-end;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-color: blue;
+    }
+
+.signup {
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    padding: 20px;
+    gap: 20px;
+    align-items: flex-end;
+    padding: 5px 20px;
+    border-radius: 15px;
+    border-color: blue;
+    }
+
+    body {
+        background-color: rgb(221, 236, 240);
+        /* margin: 0 auto; */
+            }
+    .bloco1 {
+        margin-left: 50px;;
+        font-size: 24px;
+        /* font-weight: bold; */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+         }
+
+    .texto {
+        display: flex;
+        gap: 15px;
+            }
+
+    .texto1 {
+        font-size: small;
+        color: blue;
+
+    }
+    .color {
+        color: blue;
+        text-decoration: underline;
+        font-style: italic;
+    }
