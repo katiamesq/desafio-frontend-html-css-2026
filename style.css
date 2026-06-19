@@ -43,8 +43,7 @@
     border-radius: 15px;
     border-color: blue;
     }
-
-.signup {
+    .signup {
     color: white;
     background-color: blue;
     cursor: pointer;
@@ -60,9 +59,7 @@
         background-color: rgb(221, 236, 240);
         margin: 0 auto;
             }
-           
-
-    .box1 {
+        .box1 {
         font-size: 24px;
         margin: 100px 280px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -83,6 +80,106 @@
         text-decoration: underline;
         font-style: italic;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -166,6 +263,75 @@
             border-radius: 999px;
             padding: 10px;
         }
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
         .containersurgeon {
             display: flex;
