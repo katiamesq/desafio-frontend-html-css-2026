@@ -11,7 +11,7 @@
 
 #logo {
     margin-left: 50px;
-    width: 200px;
+    width: 120px;
 }
 .containerheader {
     background-color: rgb(221, 236, 240);
@@ -58,18 +58,15 @@
 
     body {
         background-color: rgb(221, 236, 240);
-        /* width: 80%; */
-        /* max-width: 1200px; */
         margin: 0 auto;
             }
            
 
     .box1 {
-        margin-top: 80px;
-        margin-left: 460px;
         font-size: 24px;
-        /* font-weight: bold; */
+        margin: 100px 280px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        height: 100px;
          }
 
     .texto {
@@ -98,7 +95,8 @@
         
     }
     .barra {
-        margin-left: 460px;
+        /* margin-left: 460px; */
+        margin: 0px 0 0 280px;
         width: max-content;
         display: flex;
         justify-content: left;
@@ -110,14 +108,13 @@
         font-size: 48px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        /* margin-left: 70px; */
-    }
+        }
+
     .subtitulo {
        display: flex;
        justify-content: left;
-       /* align-content: space-between; */
        gap: 90px;
-       margin-left: 460px;
+       margin-left: 280px;
     }
     .medico {
         width: 600px;
@@ -126,27 +123,25 @@
     }
 
     .texto2 {
-        font-size: 24px;
+        font-size: 18px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        margin-left: 460px;
-        margin-top: 100px;
-        padding-top: 20px;
+        margin: 0px 280px;
+        
     }
 
     .containerbranco {
         background-color: floralwhite;
-        /* padding-bottom: 70px; */
+        padding-top: 80px;
+        
     }
 
     #containercard{
         display: flex;
         justify-content: left;
-        gap: 30px;
+        gap: 40px;
         cursor: pointer;
-        margin-top: 60px;
-        margin-left: 460px;
-        /* margin-right: 300px; */
-        }
+        margin: 10px 280px;
+    }
 
         .cards {
            text-align: justify;
@@ -178,7 +173,7 @@
             align-items: center;
             padding: 80px;
             gap: 30px;
-            margin-left: 150px;
+            margin-left: 180px;
         }
         .texto3 {
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -203,12 +198,11 @@
         .containeravaliacao {
             display: flex;
             padding: 50px 0;
-            
-            
+            gap: 50px;
+            margin-left: 80px;
             }
 
             .subtit {
-                /* margin-left: 70px; */
                 color: blue; 
                 font-size: small;  
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -217,11 +211,10 @@
 
         .left {
             display: flex;
-            justify-items: left;
             flex-direction: column;
             font-size: 24px ;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            /* width: 50%; */
+            margin-left: 120px;
             }
 
             .color2 {
@@ -236,17 +229,50 @@
             gap: 10px;
             border: cadetblue solid;
             border-radius: 20px;
+            width: 300px;
             }
+
+        
         .star {
             width: 30px;
             height: 30px;
             display: flex;
-            justify-items: end;
-            align-self: flex-end;
-            
-            
-        }
+            justify-content: left;
+            align-content: center;
+            }
+
+       .containerformulario {
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        background-color: blue;
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+        width: 800px;
+        height: 200px;
+        margin-bottom: 80px 80px 80px 80px;
+        border-radius: 15px;
+        padding: 30px;
+
+       }     
         
+        .boxbranco {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: floralwhite;
+            width: 500px;
+            height: 60px;
+            border-radius: 40px;
+        }
+
+        .lupa {
+            background-color: blue;
+            padding: 10px;
+            border-radius: 999px;
+        }
 
 
 .containerfooter {
@@ -262,9 +288,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
     padding-top: 50px;
-
-    
-
-}
+        }
         
 
