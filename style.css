@@ -498,8 +498,8 @@
 }
  .redessociais { /*não consegui fazer os elementos da rede social aparecer */
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    align-items: end;
     cursor: pointer;
     width: 20px;
     height: 20px;
@@ -510,7 +510,7 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    border-top: solid white;
+    border-top: solid floralwhite;
     background-color: blue;
     width: auto;
     color: white;
