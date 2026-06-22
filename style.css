@@ -498,7 +498,7 @@
 }
  .redessociais { /*não consegui fazer os elementos da rede social aparecer */
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: end;
     cursor: pointer;
     width: 20px;
