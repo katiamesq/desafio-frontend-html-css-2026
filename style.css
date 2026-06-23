@@ -355,18 +355,18 @@
     align-items: center;
     color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* font-weight: bold; */
     padding-top: 50px;
 }
- .redessociais { /*não consegui fazer os elementos da rede social aparecer */
+ .redessociais { 
     display: flex;
     justify-content: left;
     align-items: end;
     cursor: pointer;
     width: 20px;
     height: 20px;
-    
-}
+    margin-left: 50px;
+    gap: 20px;
+    }
 
 .allright {
     display: flex;
